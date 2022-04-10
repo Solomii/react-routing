@@ -18,7 +18,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
           <Route path="posts" element={<Posts />} />
-          <Route path="posts/:title" element={<Singlepage />} />
+          <Route path="posts/:id" element={<Singlepage />} />
         <Route path="*" element={<NotFoundPage/>} />
         </Route>
       </Routes>

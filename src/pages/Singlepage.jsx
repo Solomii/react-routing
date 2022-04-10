@@ -1,7 +1,10 @@
+import { useParams } from "react-router-dom";
+
 const Singlepage = () => {
+  const {id} = useParams();
   return (
     <div>
-      1
+       {id}
       <h1>Single Page</h1>
     </div>
   )
