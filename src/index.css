@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  text-align: center;
+  margin: 10px;
 }
 
 
@@ -13,4 +13,12 @@ header {
 header a {
   margin: 20px;
   color: black;
+}
+
+h1 {
+ text-align: center; 
+}
+
+footer {
+  text-align: center;
 }
