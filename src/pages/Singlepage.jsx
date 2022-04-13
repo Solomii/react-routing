@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-const Singlepage = () => {
+const SinglePage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [post, setPost] = useState(null);
@@ -29,4 +29,4 @@ const Singlepage = () => {
   )
 }
 
-export { Singlepage };
+export { SinglePage };

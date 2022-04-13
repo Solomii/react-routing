@@ -1,8 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   margin: 10px;
 }
-
 
 header {
   text-align: center;
@@ -18,7 +21,7 @@ header a {
 
 main a {
   text-decoration: none;
-  color: var(--color-bg);
+  color: black;
 }
 
 .active {
@@ -30,6 +33,16 @@ h1 {
  text-align: center; 
 }
 
-footer {
-  text-align: center;
+button {
+  margin: 20px;
+}
+
+.login_page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login_page_form {
+   text-align: center;
 }
